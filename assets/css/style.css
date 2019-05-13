@@ -39,6 +39,11 @@ font-size: 30px;
 margin: 0!important;
 }
 
+.about-p{
+    /* margin-top: 40px; */
+    font-size: 18;
+}
+
 .about-pages{
     width: 50%;
 }
