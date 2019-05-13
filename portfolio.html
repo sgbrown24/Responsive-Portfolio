@@ -2,66 +2,150 @@
 <html>
 
 <head>
-
-    <title>About Me</title>
-
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="asset/css/reset.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>updated Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
-
 <body>
-    <header id="masthead">
-        <div class="container">
-            <a href="index.html" id="logo">Serena Brown</a>
-            <nav>
-                <a href="index.html">about me</a>
-                <a href="portfolio.html">portfolio</a>
-                <a href="contact.html"> contact</a>
-
-            </nav>
+        <!-- navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Serena Brown <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+    <!-- <div class="bg-modal">
+        <div class="modal-content">
+                <form>
+                        <form action="">
+                                <input type="text" placeholder="Name">
+                                <input type="text" placeholder="Email">
+                               <textarea  placeholder="Message" rows="3"></textarea>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
         </div>
+
+    </div>
+     -->
     </header>
 
-    <div id="main-container" class="container">
-        <section class="main-container">
-            <h1>portfolio</h1>
+
+    <section class="about">
+        <div class="about-title">
+            <h2>About me</h2>
+            <p>Hello! welcome to my portfolio my name is Serena, here is a little about me. people find me to be self-motivated, hard worker, a team player with great communication skills. For the past several years, I have worked in customer service as well as a lead qualification with FEMA Corps.  </p>
+
+<!-- my projects -->
+        </div>
+        <div class="about-pages">
+            <div>
+
+                <div class="card1" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>GifTastic</h2>
+                        <p>Made with bootstrap, Css, html and giphy api</p>
+                        <a href="https://github.com/sgbrown24/GifTastic" class="btn btn-primary"> github</a>
+                        <a href="https://sgbrown24.github.io/GifTastic/" class="btn btn-primary"> link to cite</a>
+
+                    </div>
+                </div>
+            </div>
 
 
-            <div class="work">
-                <img src="assets/images/placeholder-image-header.jpg" class="auth-image" alt="placeholder ">
-                
-                <h3>Hangman</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/placeholder-image-header.jpg" class="auth-image" alt="placeholder ">
-                
-                <h3>RPG Games</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/placeholder-image-header.jpg" class="auth-image" alt="placeholder ">
-                
-                <h3>Trivia Games</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/placeholder-image-header.jpg" class="auth-image" alt="placeholder ">
-                
-                <h3>Rutgers Info Widget</h3>
-            </div>
-            <div class="work">
-                <img src="assets/images/placeholder-image-header.jpg" class="auth-image" alt="placeholder ">
-                
-                <h3>Rock Paper Scissors</h3>
+
+            <div>
+
+                <div class="card2" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>Project 2</h2>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="footer">
-                <p class="footer-p">
-                    copyright Serena Brown
-                </p>
+
+
+            <div>
+
+                <div class="card3" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>Project 3</h2>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
             </div>
+
+
+
+            <div>
+
+                <div class="card4" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>Project 4</h2>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div>
+
+                <div class="card5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h2>Project 5</h2>
+                        <img src="" alt="">
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+   
+    </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- ScrollMagic CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+<!-- ScrollMagic Debuger -->
+<script src=https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js></script>
+<script src="assets/javascript/main.js"></script>
 </body>
-
 
 </html>
